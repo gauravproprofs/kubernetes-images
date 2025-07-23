@@ -1,0 +1,7 @@
+[user]
+	name = gauravproprofs
+	email = gauravbhatt@proprofs.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = main

@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app012-example-com
+spec:
+  hostname: app1
+  containers:
+  - name: apache-php-app012
+    image: baseimage:2.0
+    imagePullPolicy: Never  
+    ports:
+    - containerPort: 80
+    securityContext:
+      privileged: true
+
