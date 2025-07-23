@@ -1,0 +1,3 @@
+[submodule "kubernetes-images"]
+	path = kubernetes-images
+	url = https://github.com/gauravproprofs/
